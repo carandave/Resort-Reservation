@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+*{
+    font-family: 'bold', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+ }
+
+ .header{
+    height: 80vh;
+    background-image: url("./img/l.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .section1{
+    min-height: 80vh;
+ }
+
+ .section1 .container h2{
+    color: #090a0a;
+ }
+
+ .section3{
+    min-height: 50vh;
+    background-color: #578d72;
+    width: 100%;
+ }
+
+ .section3 .container h2{
+    color: rgb(6, 6, 6);
+ }
+
+ .section4{
+    min-height: 30vh;
+    width: 100%;
+ }
+
+
+ /* .section3 .container .contact{
+    text-align: center;
+    display: inline-block;
+    padding: 8px 14px;
+ } */

@@ -1,0 +1,265 @@
+.room h1{
+    padding-top: 1%;
+    margin-left: 19.5%;
+    font-size: 40px;
+    font-weight: 500;
+    color: #1d1b31;
+}
+
+.search {
+    height: 80px;
+    margin-left: 16%;
+    margin-top: 1%;
+}
+
+.btn-secondary {
+    margin-top: 1%;
+    margin-left: 70%;
+    width: 100px;
+}
+
+.btn-primary {
+    width: 130px;
+    margin-left: 91.2%;
+}
+
+.secondary {
+    margin-left: 50%;
+}
+
+.btn-info{
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 100px;
+}
+
+.btn-dark {
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 100px;
+}
+
+.btn-danger{
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 100px;
+}
+
+.dataTable_room {
+    display: flex;
+    margin-left: 15%;
+}
+.content-table {
+    width: 150%;
+    margin: 10px;
+    border-collapse: collapse;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    font-weight: 500;
+    padding: 6px 20px;
+    font-size: 15px;
+}
+
+.td-buttons{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Operator Butotn */
+button {
+    width: 40px;
+ position: relative;
+ border: none;
+ background: transparent;
+ margin-top: 5px;
+ cursor: pointer;
+ outline-offset: 4px;
+ transition: filter 250ms;
+ user-select: none;
+ touch-action: manipulation;
+}
+
+button i{
+    font-size: 16px;
+    padding-top: 5px;
+} 
+
+.shadow {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 12px;
+ background: hsl(0deg 0% 0% / 0.25);
+ will-change: transform;
+ transform: translateY(2px);
+ transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.edge {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 12px;
+ background: linear-gradient(
+    to left,
+    hsla(258deg, 100%, 16%) 0%,
+    hsla(258deg, 100%, 32%) 8%,
+    hsla(258deg, 100%, 32%) 92%,
+    hsla(258deg, 100%, 16%) 100%
+  );
+}
+
+.front{
+ display: block;
+ position: relative;
+ padding: 5px;
+ border-radius: 12px;
+ font-weight: 600;
+ color: white;
+ background: hsl(258, 100%, 47%);
+ will-change: transform;
+ transform: translateY(-4px);
+ transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+button:hover {
+ filter: brightness(110%);
+}
+
+button:hover .front {
+ transform: translateY(-6px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .front {
+ transform: translateY(-2px);
+ transition: transform 34ms;
+}
+
+button:hover .shadow {
+ transform: translateY(4px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .shadow {
+ transform: translateY(1px);
+ transition: transform 34ms;
+}
+
+button:focus:not(:focus-visible) {
+ outline: none;
+}
+
+
+
+.shadow1 {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 12px;
+ background: hsl(0deg 0% 0% / 0.25);
+ will-change: transform;
+ transform: translateY(2px);
+ transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.edge1 {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 12px;
+ background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.front1{
+ display: block;
+ position: relative;
+ padding: 5px;
+ border-radius: 12px;
+ font-weight: 600;
+ color: white;
+ background: hsl(345deg 100% 47%);
+ will-change: transform;
+ transform: translateY(-4px);
+ transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+button:hover {
+ filter: brightness(110%);
+}
+
+button:hover .front1 {
+ transform: translateY(-6px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .front1 {
+ transform: translateY(-2px);
+ transition: transform 34ms;
+}
+
+button:hover .shadow1 {
+ transform: translateY(4px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .shadow1 {
+ transform: translateY(1px);
+ transition: transform 34ms;
+}
+
+button:focus:not(:focus-visible) {
+ outline: none;
+}
+

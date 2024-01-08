@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'italic', sans-serif;
+    font-size: 18px;
+}
+
+ .content {
+  position: relative;
+  margin-top: 2vh;
+  min-height: 90vh;
+}
+
+ .content .cards {
+  margin-left: 15%;
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content .cards .card {
+  width: 300px;
+  height: 200px;
+  background: #AAC0AA;
+  margin: 30px 20px;
+  box-shadow:#000;
+}
+
+
+.content .cards .card .box  {
+  margin-top: 10%;
+  margin-left: 3%;
+}
+
+.content .cards .card .icon-case {
+  font-size: xx-large;
+  margin-left: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+.header {
+  padding-top: 45px;
+  background-color: #315044;
+}
+
+
+/************************** for sidebar ***********************************/
+
+  /* The sidebar menu */
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 200px;
+}
+
+.image {
+  margin-top: 14%;
+  margin-left: 17%;
+  display: block;
+  width: 60%;
+  height: 50;
+
+}
+
+
+  .sidebar {
+      height: 100%; 
+      width: 15%;
+      position: fixed; 
+      z-index: 1; 
+      top: 0;
+      left: 0;
+      background-color: #31614e;
+      overflow-x: hidden;
+      padding-top: 30px; 
+      transition: 0.5s; 
+    }
+    
+
+    .sidebar h6 {
+      color: #fff;
+      margin-left: 33%;
+    }
+
+    /* The sidebar links */
+    .sidebar a {
+      margin-top: 2%;
+      margin-right: 4%;
+      padding: 5px 5px 5px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #eff3ef;
+      display: block;
+      transition: 0.3s;
+    }
+    
+
+    /* When you mouse over the navigation links, change their color */
+    .sidebar a:hover {
+      background-color: #050503;
+    }
+  
+  
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+      transition: margin-left .4s; /* If you want a transition effect */
+      padding: 10px;
+    }
+    
+    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+    @media screen and (max-height: 450px) {
+      .sidebar {padding-top: 15px;}
+      .sidebar a {font-size: 18px;}
+    }
